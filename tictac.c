@@ -17,7 +17,7 @@ void put_X_O(char ch,int pos);
 COORD coord= {0,0}; // this is global variable
 //center of axis is set to the top left cornor of the screen
 void gotoxy(int x,int y)
-{
+{      
     coord.X=x;
     coord.Y=y;
     SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE),coord);
