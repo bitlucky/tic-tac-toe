@@ -3,7 +3,7 @@ import random
 def drawBoard(board):
  
     print('   |   |')
-    print(' ' + board[7] + ' | ' + board[8] + ' | ' + board[9])
+    print(' ' + board[7] + ' | ' + board[8] + ' | ' + board[9])    
     print('   |   |')
     print('-----------')
     print('   |   |')
